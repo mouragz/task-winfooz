@@ -1,0 +1,398 @@
+#app {
+    .container {
+        width: 867px;
+    }
+    a {
+        text-decoration: none;
+    }
+    .draft_hr {
+        margin-top: 0px;
+        margin-bottom: 10px;
+        border: 0;
+        border-top: 1px solid #e0e0e0;
+        width: 238px;
+    }
+    .vin_hr {
+        width: 570px;
+        height: 1px;
+        background-color: #e0e0e0;
+    }
+    .navbar {
+        margin-bottom: 60px;
+    }
+    .navbar-default {
+        background-color: #ffffff;
+        border-color: #e7e7e7;
+        height: 60px;
+    }
+    .navbar-brand {
+        float: left;
+        height: 60px;
+    }
+    .navbar-default .navbar-text {
+        color: #777;
+        margin-top: 20px;
+    }
+    .cancel {
+        font-size: 14px;
+        line-height: 1.9;
+        letter-spacing: 0.8px;
+        color: #f6ac34;
+    }
+    .card {
+        border: solid 1px #e7e7e7;
+        background-color: #ffffff;
+        width: 276px;
+        margin-bottom: 30px;
+    }
+    .first_text {
+        margin-left: 15px;
+        margin-top: 12.5px;
+        margin-right: 8px;
+        margin-bottom: 15.5px;
+        width: 244px;
+        height: 104px;
+        font-family: Roboto;
+        font-size: 14px;
+        font-weight: 400;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.43;
+        letter-spacing: 0.7px;
+        text-align: left;
+        color: #9b9b9b;
+    }
+    .title {
+        font-size: 14px;
+        text-align: left;
+        line-height: 20px;
+        letter-spacing: 0.7px;
+        font-family: Roboto;
+        font-weight: 500;
+        color: #9b9b9b
+    }
+    .list {
+        font-family: Roboto;
+        font-size: 14px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.9;
+        letter-spacing: 0.7px;
+        text-align: left;
+        color: #9b9b9b;
+    }
+    .list {
+        list-style: none;
+        padding-left: 17px;
+    }
+    .draftList:before {
+        content: "● ";
+        font-size: 16px;
+        color: #06a697;
+    }
+    .btn-warning {
+        width: 136px;
+        height: 38px;
+        font-family: Roboto;
+        font-size: 16px;
+        font-weight: bold;
+        color: #f6ac34;
+        letter-spacing: 0.4px;
+        line-height: 1.66;
+        border: 1px solid #f6ac34;
+        border-radius: 40px;
+        background-color: #ffffff;
+        transition: all 0.3s ease 0s;
+        margin-right: 20px;
+    }
+    .btn-warning:hover {
+        color: #FFF;
+        background: #f6ac34;
+        border: 2px solid #f6ac34;
+    }
+    .publish {
+        width: 113px;
+        height: 38px;
+        background-color: #bdbdbd;
+        font-family: Roboto;
+        font-size: 16px;
+        font-weight: bold;
+        color: #ffffff;
+        line-height: 1.66;
+        letter-spacing: 0.4px;
+        border-radius: 40px;
+    }
+    .buttons {
+        width: 276px;
+    }
+    .panel{
+        &.disabled{
+            .panel-heading {
+                &:before{
+                    background: rgba(255,255,255,0.8);
+                    content:'';
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    width: 100%;
+                    height: 100%;
+                    z-index: 99999;
+                }
+            }
+        }
+    }
+    .panel-heading {
+        color: #333;
+        border-color: #ddd;
+        background-color: #ffffff;
+        position: relative;
+    }
+    .headColor .panel-heading {
+        color: #333;
+        border-color: #ddd;
+        background-color: #06a697
+    }
+    .panel-title {
+        font-family: Roboto;
+        font-size: 16px;
+        font-weight: bold;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.66;
+        letter-spacing: 0.8px;
+        text-align: left;
+        color: #1c1c1c;
+    }
+    .headColor .panel-title {
+        font-family: Roboto;
+        font-size: 16px;
+        font-weight: bold;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.66;
+        letter-spacing: 0.8px;
+        text-align: left;
+        color: #ffffff;
+    }
+    .changeFont {
+        font-family: Roboto;
+        font-size: 16px;
+        font-weight: bold;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.66;
+        letter-spacing: 0.8px;
+        text-align: left;
+        color: #ffffff;
+    }
+    .fa-2x {
+        font-size: 1.5em ;
+    }
+    .Orange{
+        color:#f6ac34;
+    }
+    .Brown{
+        color:#754313;
+    }
+    .Blue{
+        color:#06a697;
+    }
+    .whiteColor{
+        float: right;
+        color: #ffffff;
+    }
+    .arrow {
+        float: right;
+        color: #bdbdbd;
+    }
+    .addNumber {
+        font-family: Roboto;
+        font-size: 14px;
+        font-weight: normal;
+        line-height: 1.9;
+        letter-spacing: 1.3px;
+        text-align: right;
+        color: #1c1c1c;
+    }
+    .vinNum {
+        width: 515px;
+        height: 38px;
+        margin-left: 1px;
+        margin-top: 5px;
+    }
+    .input-group-addon {
+        padding: 6px 12px;
+        font-size: 14px;
+        font-weight: normal;
+        line-height: 1;
+        color: #06a697;
+        text-align: center;
+        background-color: #ffffff;
+        border: 0px solid #ccc;
+        border-radius: 4px;
+    }
+    .cont {
+        float: right;
+        margin-top: 15px;
+    }
+    .form-group {
+        margin-bottom: 0px;
+    }
+    .butn_group {
+        border-top: 1px solid #e0e0e0;
+        margin-top: 15px;
+    }
+    .show-grid {
+        width: 65%;
+    }
+    .subVin {
+        width: 240px;
+    }
+    .control-label {
+        padding-top: 25px;
+        padding-bottom: 6px;
+        font-family: Roboto;
+        font-size: 16px;
+        font-weight: normal;
+        line-height: 1.66;
+        letter-spacing: 1.4px;
+        text-align: left;
+        color: #1c1c1c;
+    }
+    .vinOpt {
+        margin-left: 0px;
+    }
+    .auto {
+        margin-left: 40px;
+    }
+    .vinRadio {
+        font-family: Roboto;
+        font-size: 16px;
+        font-weight: normal;
+        white-space: nowrap;
+        line-height: 1.66;
+        letter-spacing: normal;
+        text-align: right;
+        color: #1c1c1c;
+    }
+    .mydot {
+        background-color: #ffffff;
+        color: #f6ac34;
+        padding: 7px;
+        font-size: 0.7em;
+        border-radius: 50%;    
+        margin-left: 130px;
+    }
+    textarea.form-control {
+        height: 158px;
+        width: 515px;
+    }
+    .removeimg {
+        margin-right: 10px;
+    }
+    .hide {
+        display: none;
+    }
+    .show {
+        display: inline-block;
+    }
+    .display {
+        display: inline;
+    }
+    .infosbefore .panel-title>a {
+        font-family: Roboto;
+        font-size: 15px;
+        font-weight: normal;
+        line-height: 1.77;
+        letter-spacing: 0.7px;
+        text-align: left;
+        color: #bdbdbd;
+    }
+    .infosafter .panel-title>a {
+        font-family: Roboto;
+        font-size: 16px;
+        font-weight: bold;
+        line-height: 1.66;
+        letter-spacing: 0.8px;
+        text-align: left;
+        color: #1c1c1c;
+    }
+    /* enable absolute positioning */
+    .inner-addon {
+        position: relative;
+    }
+    /* style glyph */
+    .inner-addon .glyphicon {
+        position: absolute;
+        padding: 10px;
+        pointer-events: none;
+    }
+    .right-addon .glyphicon {
+        right: 0px;
+        color: #06a697;
+    }
+    .right-addon input {
+        padding-right: 30px;
+    }
+    .displayVinNumber{
+        padding-left: 58px;
+        font-family: Roboto;
+        font-size: 14px;
+        font-weight: normal;
+        line-height: 1.04;
+        letter-spacing: 1.3px;
+        text-align: right;
+        color: #f5f5f5;
+    }
+    [type="radio"]:checked,
+    [type="radio"]:not(:checked) {
+        position: absolute;
+        left: -9999px;
+    }
+    [type="radio"]:checked + label,
+    [type="radio"]:not(:checked) + label
+    {
+        position: relative;
+        padding-left: 28px;
+        cursor: pointer;
+        line-height: 20px;
+        display: inline-block;
+        color: #666;
+    }
+    [type="radio"]:checked + label:before,
+    [type="radio"]:not(:checked) + label:before {
+        content: '';
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 18px;
+        height: 18px;
+        border: 1px solid black;
+        border-radius: 100%;
+        background: #fff;
+    }
+    [type="radio"]:checked + label:after,
+    [type="radio"]:not(:checked) + label:after {
+        content: '';
+        width: 10px;
+        height: 10px;
+        background: black;
+        position: absolute;
+        top: 4px;
+        left: 4px;
+        border-radius: 100%;
+        -webkit-transition: all 0.2s ease;
+        transition: all 0.2s ease;
+    }
+    [type="radio"]:not(:checked) + label:after {
+        opacity: 0;
+        -webkit-transform: scale(0);
+        transform: scale(0);
+    }
+    [type="radio"]:checked + label:after {
+        opacity: 1;
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+}
